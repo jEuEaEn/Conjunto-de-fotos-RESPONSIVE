@@ -1,0 +1,157 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+main{
+
+    max-width: 800px;
+    margin: auto;
+
+}
+
+body{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    background-color: rgba(255, 153, 0, 0.596);
+    height: 50px;
+    top: 0px;
+    backdrop-filter: blur(5px);
+    z-index: 3;
+
+}
+
+.putin a{
+
+    margin: 5px;
+    text-decoration: none;
+
+}
+
+section{
+
+    margin-top: 10px;
+
+}
+
+
+#INI{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h3{
+
+        color: orangered;
+        margin: 20px;
+
+    }
+
+    img{
+
+        width: 400px;
+        border-radius: 50%;
+    }
+
+}
+
+
+#GAL{
+
+    padding-top: 8rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#GAL .imagen{
+
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 5px;
+    position: relative;
+
+}
+
+#GAL::before{
+
+    content: attr(data-content);
+    opacity: 0;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    transition: opacity .5s;
+
+}
+
+
+
+#GAL .imagen img{
+
+    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+
+}
+
+#CON{
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    
+}
+
+#CON h1{
+    
+    color: orangered;
+    
+}
+
+#CON h3{
+    
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+
+#CON input{
+    
+    height: 1.5rem;
+    margin-bottom: 10px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 0.5rem;
+
+}
+
+#CON textarea{
+    
+    resize: none;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 0.5rem;
+
+}
