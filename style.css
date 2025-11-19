@@ -151,7 +151,27 @@ section{
     flex-direction: column;
     max-width: 400px;
     margin: auto;
+
+    button{
+
+        height: 30px;
+        margin-bottom: 80px;
+        border-radius: 10px;
+        border: 0px solid;
+        border: 1px solid orange;
+        background-color: orange;
+        color: white;
+        transition: .5s;
+
+    }
     
+}
+
+#CON button:hover{
+
+    background-color: white;
+    color: black;
+
 }
 
 #CON h1{
