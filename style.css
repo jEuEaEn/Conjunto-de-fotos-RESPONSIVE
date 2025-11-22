@@ -130,6 +130,8 @@ section{
     flex-basis: 300px;
     margin: 5px;
     position: relative;
+    overflow: hidden;
+    border-radious: 20px;
 
 }
 
@@ -137,7 +139,6 @@ section{
 
 #GAL .imagen img{
 
-    border-radius: 20px;
     width: 100%;
     height: 400px;
 
